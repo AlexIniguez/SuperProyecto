@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Proyecto 🍺 - Signup</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+  <img src="img/loading.gif" class="loader">
+
+	<section class="form-section">
+		<div class="form-container">
+			<div class="form">
+				<h1 class="form-heading">Signup Here!!! 🙆‍♂️</h1>
+				<input type="text" 
+							 id="name"
+							 autocomplete="off"
+							 placeholder="full name"
+				>
+				<input type="email" 
+							 id="email"
+							 autocomplete="off"
+							 placeholder="email"
+				>
+				<input type="password" 
+							 id="password"
+							 autocomplete="off"
+							 placeholder="password"
+				>
+				<input type="number" 
+							 id="number"
+							 autocomplete="off"
+							 placeholder="phone number"
+				>
+				<span class="error">**this is an error</span>
+				<div>
+					<input type="checkbox" id="tc">
+					<label for="tc" class="tc-text">You agree to our terms and conditions</label>
+				</div>
+
+				<button class="submit-btn">Sign Up</button>
+				<a href="/login" class="other-form-link">
+					Already have an account, login here
+				</a>
+			</div>
+			<img src="./img/signup-bg.png" class="form-img">
+		</div>
+	</section>
+
+	<script src="./js/common.js"></script>
+	<script src="./js/form.js"></script>
+</body>
+</html>
